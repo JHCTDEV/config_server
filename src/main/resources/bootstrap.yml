@@ -8,8 +8,8 @@ spring:
         git:
           uri: https://github.com/JHCTDEV/config_server.git
           search-paths: config-data
-          username: root
-          password: 123a
+          username: ${USER_GIT}
+          password: ${PASSWORD_GIT}
 
   security:
     user:
