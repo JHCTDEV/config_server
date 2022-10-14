@@ -1,0 +1,19 @@
+server:
+  port: 8099
+
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/JHCTDEV/config_server.git
+          search-paths: config-data
+          username: root
+          password: 123a
+
+  security:
+    user:
+      name: root
+      password: 123a
+
+
