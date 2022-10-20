@@ -5,7 +5,3 @@ spring:
     mongodb:
       port: 27017
       uri: mongodb://localhost/customer
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://localhost:9093/eureka/
