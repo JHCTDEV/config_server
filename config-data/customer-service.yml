@@ -1,0 +1,11 @@
+server:
+  port: 8081
+spring:
+  data:
+    mongodb:
+      port: 27017
+      uri: mongodb://localhost/customer
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://registration:9093/eureka/
