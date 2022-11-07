@@ -38,7 +38,7 @@ jobs:
         #file: ./Dockerfile
         username: ${{ secrets.AzureAppService_ContainerUsername_59f90819cbb445758dea41fa690c1bdc }}
         password: ${{ secrets.AzureAppService_ContainerPassword_bafc0a8715ee4ff8969885fe73171bed }}
-        repository: jhctdev/msconfigserver
+        repository: jhctdev/config-server
         tags: ${{ github.sha }}
 
   deploy:
