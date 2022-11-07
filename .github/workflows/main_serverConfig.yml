@@ -56,4 +56,4 @@ jobs:
         app-name: 'serverConfig'
         slot-name: 'production'
         publish-profile: ${{ secrets.AzureAppService_PublishProfile_712b6f047ffd4fc1aa5b199dc3d39026 }}
-        images: 'index.docker.io/${{ secrets.AzureAppService_ContainerUsername_59f90819cbb445758dea41fa690c1bdc }}/msconfigserver:${{ github.sha }}'
+        images: 'index.docker.io/${{ secrets.AzureAppService_ContainerUsername_59f90819cbb445758dea41fa690c1bdc }}/config-server:${{ github.sha }}'
